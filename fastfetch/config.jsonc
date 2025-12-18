@@ -1,0 +1,73 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [ 
+    "break",
+    {
+	    "type" : "custom",
+	    "format" : "|------------------  Hardware  -----------------|"
+    },
+    "break",
+   
+    {
+	"type" : "host",
+	"key" : "  PC : "
+    },
+    {
+	"type" : "memory",
+	"key" : "  RAM : "
+    },
+    {
+	"type" : "disk",
+	"key" : "󰍛 Stockage : "
+    },
+    {
+	"type" : "battery",
+	"key" : "󰂄 Batterie"
+    },
+    {
+	"type" : "poweradapter",
+	"key" : "󱐥 En charge"
+    },
+
+    "break",
+    {
+	    "type" : "custom",
+	    "format" : "|------------------  Système   -----------------|" 
+    },
+    "break",
+    {
+	    "type" : "custom",
+	    "key" : "  OS ",
+	    "format" : "Arch btw"
+    },
+    {
+	"type" : "kernel",
+	"key" : "󰞸 Kernel "
+    },
+    {
+	"type" : "packages",
+	"key" : " Paquets "
+    },
+    {
+	"type" : "shell",
+	"key" : " Shell "
+    },
+    {
+	"type" : "wm",
+	"key" : "󰧨 WM "
+
+    },
+    {
+	"type" : "de",
+	"key" : "󰧨 DE "
+    },
+    "break",
+    {
+	    "type" : "custom",
+	    "key" : " ",
+	    "format" : "|-----------------  Couleurs  ------------------|"
+    },
+    "break",
+    "colors"
+  ]
+}
