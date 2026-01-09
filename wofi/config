@@ -1,13 +1,17 @@
 [config]
 allow_images=true
-width=500
+width=800
+height=500
 show=drun
-prompt=Search
-height=400
+prompt=Apps
 term=kitty
 hide_scroll=true
 print_command=true
 insensitive=true
-columns=1
+columns=4
+normal_window=true
 no_actions=true
+image_size=90
+
+
 

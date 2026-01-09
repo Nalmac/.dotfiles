@@ -1,0 +1,7 @@
+[config]
+allow_images=true
+width=800
+height=250
+show=dmenu
+hide_search=true
+orientation=horizontal

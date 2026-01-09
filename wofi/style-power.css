@@ -1,19 +1,12 @@
 @import url('/home/simon/.cache/wal/colors-waybar.css');
-
 @define-color mauve  @color9;
 @define-color red  @color9;
 @define-color lavender  @color7;
 @define-color text  @color7;
-@keyframes fadeIn {
-    0% {
-    }
-    100% {
-    }
-}
-
 * {
     all:unset;
-    font-family: 'CodeNewRoman Nerd Font Mono', monospace; 
+    font-family: 'CodeNewRoman Nerd Font Mono', monospace;
+    font-size: 140px;
     outline: none;
     border: none;
     text-shadow:none;
@@ -22,21 +15,22 @@
 
 window {
     all:unset;
-    padding: 20px;
-    border-radius: 0px;
-    background-color: alpha(@background,1);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: alpha(@background,.8);
 }
 #inner-box {
     margin: 2px;
-    padding: 5px
+    padding: 3px;
     border: none;
+
 }
 #outer-box {    
     border: none;
 }
 #scroll {
     margin: 0px;
-    padding: 30px;
+    padding: 10px;
     border: none;
 }
 #input {
@@ -48,9 +42,9 @@ window {
     border: none;
     outline: none;
     color: @text;
-    font-size: 18px;
+    box-shadow: 1px 1px 5px rgba(0,0,0, .5);
     border-radius:10;
-    background-color: transparent;
+    background-color: alpha(@background,.2);
 }
 #input image {
     border: none;
@@ -69,18 +63,14 @@ window {
     border-radius:10;
 }
 #text {
-    margin: 0px;
+    margin: 5px;
     border: none;
     color: @text;
     outline: none;
 }
 #entry {
-    border: none;
-    margin: 5px 67px 5px 67px;
-    padding: 10px; 
-    font-size: 0px;
-    width: 60px;
-    align-content: center;
+    all:unset;
+    padding: 20 50 20 50;
 }
 #entry arrow {
     border: none;
@@ -90,7 +80,7 @@ window {
 #entry:selected {
     border: none;
     border-radius: 20px;
-    background-color: @mauve;
+    background-color: alpha(@background,.2);
 }
 #entry:selected #text {
     color: @mauve;
