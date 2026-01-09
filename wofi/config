@@ -1,6 +1,6 @@
 [config]
 allow_images=true
-width=800
+width=1050
 height=500
 show=drun
 prompt=Apps
